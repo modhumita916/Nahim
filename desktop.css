@@ -1,0 +1,200 @@
+
+/* for desktop */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+/* for desktop */
+
+
+/* Navbar design starts from here */
+.nav-logo{
+    text-align: center;
+}
+
+.nav-heading h1{
+    text-align: right;
+}
+
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nav-menu a{
+    padding: 5px 10px;
+    margin: 20px 0;
+    background-color: transparent;
+}
+
+/* Navbar design ends here */
+
+
+
+
+
+/* profile design starts from here */
+
+
+
+.profile .top-weather-icon{
+    right: 140px;
+    top: 35px;
+    width: 130px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .top-weather-icon:hover{
+   width: 150px;
+}
+
+
+
+.profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 50%;
+    margin-top:20px;
+}
+
+
+
+.profile .bottom-weather-icon{
+    left: 140px;
+    bottom: 20px;
+    width: 130px;
+    transition: width 2s, transform 2s;
+}
+
+.profile .bottom-weather-icon:hover{
+   width: 150px;
+}
+
+
+
+
+/* profile design ends here */
+
+
+
+
+
+/* about-me design starts from here */
+
+.aboutme-image{
+    margin: 100px auto;
+
+}
+
+.aboutme-image img{
+    height: 270px;
+    width: 250px;
+}
+
+.about-desc p{
+    text-align: left;
+}
+
+
+
+/* about-me design ends here */
+
+
+
+
+
+
+
+
+ /* professional-experience design starts from here */
+
+
+.professional-experience{
+    padding: 1% 3.5%;
+}
+
+ 
+ /* professional-experience design ends here */
+
+
+
+
+
+
+
+
+
+ /* achievement-contract design starts frome here */
+
+.achievement{
+    padding-right: 50px;
+}
+
+
+
+
+.contract button{
+   width: 140px;
+}  
+
+
+
+
+.contract-links{
+    position: relative;
+}
+
+.media-buttons{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    transform: translateY(50px);
+}
+/* achievement-contract design ends here */
+
+
+
+
+
+
+
+
+
+
+/* footer design starts frome here */
+
+
+
+.footer-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 12px;
+}
+
+.footer-menu a{
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: transparent;
+}
+
+
+
+.footer-desc{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.footer-desc p{
+    padding: 5px 10px;
+    margin: 20px 0px;
+}
+
+/* footer design ends here */
